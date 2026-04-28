@@ -1,0 +1,72 @@
+body{
+font-family: Arial;
+background: #f4f4f4;
+padding: 20px;
+}
+
+h2{
+color: #333;
+}
+
+form{
+background: #0f172a;
+color: white;
+padding: 20px;
+width: 300px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #ccc;
+}
+
+input{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+}
+
+button{
+background: blue;
+color: white;
+padding: 10px;
+border: none;
+width: 100%;
+cursor: pointer;
+}
+
+button:hover{
+background: darkblue;
+}
+
+table{
+background: #1e293b;
+color: white;
+border-collapse: collapse;
+width: 100%;
+margin-top: 20px;
+}
+
+table th{
+background: blue;
+color: white;
+padding: 10px;
+}
+
+table td{
+padding: 10px;
+}
+
+a{
+text-decoration: none;
+color: red;
+}
+.sidebar{
+height: 100vh;
+background: linear-gradient(
+180deg,
+#0f172a,
+#1e293b
+);
+
+padding-top: 20px;
+
+box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+}
